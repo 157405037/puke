@@ -88,9 +88,9 @@ $(function () {
             $(this).removeClass('left').addClass('right');
         })
     })
-    let j=1000;
+    let j=60;
     $('.left1').on('click',function () {
-        $('.right').first().css('zIndex',j--).animate({left:0},function () {
+        $('.right').first().css('zIndex',j++).animate({left:0},function () {
             $(this).removeClass('right').addClass('left');
         })
     })
